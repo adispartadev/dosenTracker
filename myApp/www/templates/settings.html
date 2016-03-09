@@ -1,0 +1,48 @@
+<ion-view style="" title="Settings">
+    <div class="tabs-striped tabs-top tabs-background-assertive tabs-color-light">
+        <div class="tabs">
+            <a class="tab-item" href="#/locationList">
+                <i class="icon ion-ios-home-outline"></i>
+                Location
+            </a>
+            <a class="tab-item" href="#/loginAccount">
+                <i class="icon ion-log-in"></i>
+                Login
+            </a>
+            <a class="tab-item active" href="#/settings">
+                <i class="icon ion-ios-settings"></i>
+                Settings
+            </a>
+        </div>
+    </div>
+    <ion-content class="has-header" overflow-scroll="true" padding="true">
+        <br><br><br>
+        <div class="list">
+            <li class="item item-toggle">
+                 Status
+                <label class="toggle toggle-positive">
+                    <input type="checkbox">
+                    <div class="track">
+                        <div class="handle"></div>
+                    </div>
+                </label>
+            </li>
+        </div>
+
+        <form style="" class="list">
+            <ion-list style="">
+                <label style="" class="item item-input">
+                    <span class="input-label">Name</span>
+                    <input value="I Wayan Adi Sparta" type="text">
+                </label>
+                <label style="" class="item item-input">
+                    <span class="input-label">Username</span>
+                    <input value="I Wayan Adi Sparta" type="text">
+                </label>
+            </ion-list>
+            <a style="" class="button button-light button-block">Change Location</a>
+            <button style="" class="button button-positive button-block">Save</button>
+        </form>
+
+    </ion-content>
+</ion-view>
